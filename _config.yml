@@ -64,7 +64,8 @@ social:
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
-  
+
+#Navigation bar items from the header include file
 navigation:
     - text: Services
     - text: Portfolio
@@ -72,12 +73,19 @@ navigation:
     - text: Team
     - text: Contact
     
-clientImages:
-    - path: envato.jpg
-    - path: designmodo.jpg
-    - path: themeforest.jpg
-    - path: creative-market.jpg
-    
+#Content from the services include file
+services:
+    - heading: E-Commerce
+      icon: shopping-cart
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - heading: Responsive Design
+      icon: laptop
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - heading: Web Security
+      icon: lock
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+#Content from the about include file
 timeLine: 
     - path: 1.jpg
       dateRange: 2009-2011
@@ -97,6 +105,13 @@ timeLine:
       dateRange: 2010-2012
       subHeading: Test3
       description: This is a test!
+      
+#Images from the clients include file
+clientImages:
+    - path: envato.jpg
+    - path: designmodo.jpg
+    - path: themeforest.jpg
+    - path: creative-market.jpg
 
 # Build settings
 markdown: kramdown
