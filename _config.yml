@@ -6,6 +6,9 @@ title: Awesome Title
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+header: 
+  image: mac4.jpg
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
@@ -67,11 +70,11 @@ address:
 
 #Navigation bar items from the header include file
 navigation:
-    - text: Services
-    - text: Portfolio
-    - text: About
-    - text: Team
-    - text: Contact
+    - text: services
+    - text: portfolio
+    - text: about
+    - text: team
+    - text: contact
     
 #Content from the services include file
 services:
