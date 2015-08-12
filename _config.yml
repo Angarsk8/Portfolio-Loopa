@@ -64,6 +64,39 @@ social:
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
+  
+navigation:
+    - text: Services
+    - text: Portfolio
+    - text: About
+    - text: Team
+    - text: Contact
+    
+clientImages:
+    - path: envato.jpg
+    - path: designmodo.jpg
+    - path: themeforest.jpg
+    - path: creative-market.jpg
+    
+timeLine: 
+    - path: 1.jpg
+      dateRange: 2009-2011
+      subHeading: Our Humble Beginnings
+      description: This is a test!
+    - inverted: timeline-inverted
+      path: 2.jpg
+      dateRange: March 2015
+      subHeading: Test1
+      description: This is a test!
+    - path: 3.jpg
+      dateRange: 2003-2020
+      subHeading: Test2
+      description: This is a test!
+    - inverted: timeline-inverted
+      path: 4.jpg
+      dateRange: 2010-2012
+      subHeading: Test3
+      description: This is a test!
 
 # Build settings
 markdown: kramdown
